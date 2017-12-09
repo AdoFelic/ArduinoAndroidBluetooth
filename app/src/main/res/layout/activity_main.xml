@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tfb"
+        android:scaleType="centerCrop"
+        android:background="#ffff"
+        android:layout_above="@+id/btn8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Naprijed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/btnConnect"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Naprijed\nDesno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:layout_alignBaseline="@+id/btn3"
+        android:layout_alignBottom="@+id/btn3"
+        android:layout_toRightOf="@+id/btnConnect"
+        android:layout_toEndOf="@+id/btnConnect" />
+
+    <Button
+        android:text="Naprijed\nLijevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+
+        android:layout_marginTop="35dp"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_toLeftOf="@+id/btnConnect"
+        android:layout_toStartOf="@+id/btnConnect" />
+
+    <Button
+        android:text="Lijevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn5"
+        android:layout_above="@+id/btn7"
+        android:layout_alignRight="@+id/btn3"
+        android:layout_alignEnd="@+id/btn3" />
+
+    <Button
+        android:text="Desno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btn2"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_alignStart="@+id/btn2" />
+
+    <Button
+        android:text="Nazad\nDesno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn6"
+        android:layout_alignBaseline="@+id/btn7"
+        android:layout_alignBottom="@+id/btn7"
+        android:layout_alignRight="@+id/btn4"
+        android:layout_alignEnd="@+id/btn4" />
+
+    <Button
+        android:text="Nazad\nLijevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn7"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/btn4"
+        android:layout_alignRight="@+id/btn5"
+        android:layout_alignEnd="@+id/btn5" />
+
+    <Button
+        android:text="Nazad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn8"
+        android:layout_marginTop="40dp"
+        android:layout_alignTop="@+id/btn7"
+        android:layout_alignRight="@+id/btn1"
+        android:layout_alignEnd="@+id/btn1"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:text="Rucno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn9"
+        android:layout_marginTop="38dp"
+
+        android:layout_below="@+id/btn8"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
